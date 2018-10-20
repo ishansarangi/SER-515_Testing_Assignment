@@ -120,6 +120,18 @@ public class AlgoTest {
 					sortedItems[i].key);
 	}
 
+	// Selection Sort CONDITION 2 element case
+	@Test
+	public void testSelectionSortTwoElement() {
+		Item[] items = { new Item(6), new Item(2) };
+		Item[] sortedItems = { new Item(2), new Item(6) };
+
+		SortAlgos.selectionSort(items);
+		for (int i = 0; i < items.length; i++)
+			assertEquals("Testing Selection Sort for condition coverage of 2 element", items[i].key,
+					sortedItems[i].key);
+	}
+
 	// Insertion Sort empty items EDGE, CONDITION case
 	@Test(expected = java.lang.NullPointerException.class)
 	public void testInsertionSortEmptyItems() {
@@ -175,6 +187,18 @@ public class AlgoTest {
 					sortedItems[i].key);
 	}
 
+	// Insertion Sort CONDITION 2 element case
+	@Test
+	public void testInsertionSortTwoElement() {
+		Item[] items = { new Item(6), new Item(2) };
+		Item[] sortedItems = { new Item(2), new Item(6) };
+
+		SortAlgos.insertionSort(items);
+		for (int i = 0; i < items.length; i++)
+			assertEquals("Testing Insertion Sort for condition coverage of 2 element", items[i].key,
+					sortedItems[i].key);
+	}
+
 	// Merge Sort empty items EDGE, CONDITION case
 	@Test(expected = java.lang.NullPointerException.class)
 	public void testMergeSortEmptyItems() {
@@ -227,6 +251,17 @@ public class AlgoTest {
 		SortAlgos.mergeSort(items);
 		for (int i = 0; i < items.length; i++)
 			assertEquals("Testing Merge Sort for condition coverage of 1 element", items[i].key, sortedItems[i].key);
+	}
+
+	// Merge Sort CONDITION 2 element case
+	@Test
+	public void testMergeSortTwoElement() {
+		Item[] items = { new Item(6), new Item(2) };
+		Item[] sortedItems = { new Item(2), new Item(6) };
+
+		SortAlgos.mergeSort(items);
+		for (int i = 0; i < items.length; i++)
+			assertEquals("Testing Merge Sort for condition coverage of 2 element", items[i].key, sortedItems[i].key);
 	}
 
 	// Quick Sort empty items EDGE, CONDITION case
@@ -346,5 +381,16 @@ public class AlgoTest {
 		for (int i = 0; i < items.length; i++)
 			assertEquals("Testing Heap Sort for node, edge and condition coverage for reverse sorted", items[i].key,
 					sorted[i].key);
+	}
+
+	// Heap Sort CONDITION 2 element case
+	@Test
+	public void testHeapSortTwoElement() {
+		Item[] items = { new Item(6), new Item(2) };
+		Item[] sortedItems = { new Item(2), new Item(6) };
+
+		SortAlgos.heapSort(items);
+		for (int i = 0; i < items.length; i++)
+			assertEquals("Testing Heap Sort for condition coverage of 2 element", items[i].key, sortedItems[i].key);
 	}
 }

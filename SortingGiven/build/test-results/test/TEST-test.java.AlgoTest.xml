@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.AlgoTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2018-10-20T13:08:05" hostname="Ishans-MacBook-Pro.local" time="0.01">
+<testsuite name="test.java.AlgoTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2018-10-20T13:52:15" hostname="Ishans-MacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="testMergeSort" classname="test.java.AlgoTest" time="0.003"/>
+  <testcase name="testMergeSortTwoElement" classname="test.java.AlgoTest" time="0.003"/>
+  <testcase name="testMergeSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testMergeSortEmptyItems" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testInsertionSortReverse" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testBubbleSortOneElement" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testHeapSortOneElement" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testSelectionSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testQuickSortOneElement" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testHeapSortTwoElement" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testQuickSortTwoElement" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testMergeSortReverse" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testBubbleSortEmptyItems" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testHeapSortEmptyItems" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testHeapSortEmptyItems" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testSelectionSortOneElement" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testSelectionSortReverse" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testQuickSortEmptyItems" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testSelectionSortReverse" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testQuickSortEmptyItems" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testSelectionSortTwoElement" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testBubbleSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testHeapSort" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testSelectionSortEmptyItems" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testInsertionSortOneElement" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testInsertionSortTwoElement" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testInsertionSortEmptyItems" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testHeapSortReverse" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testHeapSortReverse" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testInsertionSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testQuickSortReverse" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testQuickSort" classname="test.java.AlgoTest" time="0.0"/>
