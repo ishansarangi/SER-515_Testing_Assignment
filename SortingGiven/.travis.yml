@@ -1,5 +1,3 @@
-before_script: cd SortingGiven
-
 language: java
 
 jdk:
